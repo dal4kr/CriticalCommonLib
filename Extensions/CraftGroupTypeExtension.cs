@@ -9,9 +9,9 @@ public static class CraftGroupTypeExtension
         switch (craftGroupType)
         {
             case CraftGroupType.Crystals:
-                return "Crystals";
+                return "크리스탈";
             case CraftGroupType.Currency:
-                return "Currency";
+                return "화폐";
             case CraftGroupType.Output:
                 return "Output";
             case CraftGroupType.Precraft:

@@ -24,9 +24,9 @@ namespace CriticalCommonLib.Extensions
                 case CharacterSex.Either:
                     return "Either";
                 case CharacterSex.Female:
-                    return "Female";
+                    return "여성";
                 case CharacterSex.Male:
-                    return "Male";
+                    return "남성";
                 case CharacterSex.FemaleOnly:
                     return "Female Only";
                 case CharacterSex.MaleOnly:
@@ -44,19 +44,19 @@ namespace CriticalCommonLib.Extensions
                 case CharacterRace.Any:
                     return "Any";
                 case CharacterRace.Hyur:
-                    return "Hyur";
+                    return "휴런";
                 case CharacterRace.Elezen:
-                    return "Elezen";
+                    return "엘레젠";
                 case CharacterRace.Lalafell:
-                    return "Lalafell";
+                    return "라라펠";
                 case CharacterRace.Miqote:
-                    return "Miqote";
+                    return "미코테";
                 case CharacterRace.Roegadyn:
-                    return "Roegadyn";
+                    return "루가딘";
                 case CharacterRace.Viera:
-                    return "Viera";
+                    return "비에라";
                 case CharacterRace.AuRa:
-                    return "Au Ra";
+                    return "아우라";
                 case CharacterRace.None:
                     return "None";
             }
@@ -319,43 +319,43 @@ namespace CriticalCommonLib.Extensions
             switch (category)
             {
                 case InventoryCategory.CharacterBags:
-                    return "Bags";
+                    return "소지품";
                 case InventoryCategory.CharacterSaddleBags:
-                    return "Saddle Bags";
+                    return "초코보 가방";
                 case InventoryCategory.CharacterPremiumSaddleBags:
-                    return "Premium Saddle Bags";
+                    return "유료 초코보 가방";
                 case InventoryCategory.FreeCompanyBags:
-                    return "Free Company Bags";
+                    return "부대 창고";
                 case InventoryCategory.CharacterArmoryChest:
-                    return "Armoury Chest";
+                    return "장비함";
                 case InventoryCategory.GlamourChest:
-                    return "Glamour Chest";
+                    return "환상의 옷장";
                 case InventoryCategory.CharacterEquipped:
-                    return "Equipped";
+                    return "장비 중";
                 case InventoryCategory.Armoire:
-                    return "Armoire";
+                    return "추억의 보관함";
                 case InventoryCategory.RetainerBags:
-                    return "Bags";
+                    return "집사 소지품";
                 case InventoryCategory.RetainerMarket:
-                    return "Market";
+                    return "장터";
                 case InventoryCategory.Currency:
-                    return "Currency";
+                    return "화폐";
                 case InventoryCategory.Crystals:
-                    return "Crystals";
+                    return "크리스탈";
                 case InventoryCategory.HousingExteriorAppearance:
-                    return "Housing Exterior Appearance";
+                    return "하우징 외장재";
                 case InventoryCategory.HousingExteriorItems:
-                    return "Housing Exterior Items";
+                    return "하우징 조경물";
                 case InventoryCategory.HousingExteriorStoreroom:
-                    return "Housing Exterior Storeroom";
+                    return "하우징 외부 창고";
                 case InventoryCategory.HousingInteriorAppearance:
-                    return "Housing Interior Appearance";
+                    return "하우징 내장재";
                 case InventoryCategory.HousingInteriorItems:
-                    return "Housing Interior Items";
+                    return "하우징 가구";
                 case InventoryCategory.HousingInteriorStoreroom:
-                    return "Housing Interior Storeroom";
+                    return "하우징 내부 창고";
                 case InventoryCategory.RetainerEquipped:
-                    return "Equipped";
+                    return "집사 장비 중";
             }
 
             return category.ToString();
@@ -366,43 +366,43 @@ namespace CriticalCommonLib.Extensions
             switch (category)
             {
                 case InventoryCategory.CharacterBags:
-                    return "Character Bags";
+                    return "소지품";
                 case InventoryCategory.CharacterSaddleBags:
-                    return "Saddle Bags";
+                    return "초코보 가방";
                 case InventoryCategory.CharacterPremiumSaddleBags:
-                    return "Premium Saddle Bags";
+                    return "유료 초코보 가방";
                 case InventoryCategory.FreeCompanyBags:
-                    return "Free Company Bags";
+                    return "부대 창고";
                 case InventoryCategory.CharacterArmoryChest:
-                    return "Armoury Chest";
+                    return "장비함";
                 case InventoryCategory.GlamourChest:
-                    return "Glamour Chest";
+                    return "환상의 옷장";
                 case InventoryCategory.CharacterEquipped:
-                    return "Character Equipped";
+                    return "장비 중";
                 case InventoryCategory.Armoire:
-                    return "Armoire";
+                    return "추억의 보관함";
                 case InventoryCategory.RetainerBags:
-                    return "Retainer Bags";
+                    return "집사 소지품";
                 case InventoryCategory.RetainerMarket:
-                    return "Retainer Market";
+                    return "장터";
                 case InventoryCategory.Currency:
-                    return "Currency";
+                    return "화폐";
                 case InventoryCategory.Crystals:
-                    return "Crystals";
+                    return "크리스탈";
                 case InventoryCategory.HousingExteriorAppearance:
-                    return "Housing Exterior Appearance";
+                    return "하우징 외장재";
                 case InventoryCategory.HousingExteriorItems:
-                    return "Housing Exterior Items";
+                    return "하우징 조경물";
                 case InventoryCategory.HousingExteriorStoreroom:
-                    return "Housing Exterior Storeroom";
+                    return "하우징 외부 창고";
                 case InventoryCategory.HousingInteriorAppearance:
-                    return "Housing Interior Appearance";
+                    return "하우징 내장재";
                 case InventoryCategory.HousingInteriorItems:
-                    return "Housing Interior Items";
+                    return "하우징 가구";
                 case InventoryCategory.HousingInteriorStoreroom:
-                    return "Housing Interior Storeroom";
+                    return "하우징 내부 창고";
                 case InventoryCategory.RetainerEquipped:
-                    return "Retainer Equipped";
+                    return "집사 장비 중";
             }
 
             return category.ToString();
